@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#outer{
+    height: 100%;
+    width: 100%;
+    background:conic-gradient(red,black,blue,violet,yellow ,green);
+}
+
+
+#inner{
+    height: 150px;
+    width: 150px;
+    background-color: blueviolet;
+}

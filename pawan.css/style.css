@@ -1,0 +1,10 @@
+h1{
+    color: pink;
+    background-color:green;
+    font-size: 40px;
+    font-family: Arial,helvetica, sans-serif;
+    font-weight: 50;
+    font-style:italic;
+    text-align: center;
+    text-transform: lowercase;
+}

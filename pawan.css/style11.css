@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* 1.jo bhi element absolute hota hai wo upper uth jata hai.
+ and agar tumne us element ko move kiya to wo kisi ke uper bhi aa skta 
+2. koi bhi element jispe position nahi hai usper top left 
+bottom and z-index naam ki prperty kam nhi karta hai.
+3.top left bottom right and z-index ye sirf kaam karti hai jab
+aapka element ke pass koi position ki value ho jaise ki 
+example: absolute,relative sticky fixed.
+*/
+html,body{
+    height:100%;
+    width: 100%;
+}
+
+#car1{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+}
+
+#car2{
+    position: absolute;
+    height: 200px;
+    width: 250px;
+    background-color: green;
+}
+
+#car3{
+    height: 300px;
+    width: 270px;
+    background-color: blue;
+}
+
+
+
+
+

@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#hero{
+    height: 100%;
+    width: 100%;
+   background-image: url(https://tse3.mm.bing.net/th/id/OIP.13PQIrhfPWe_S2ikbBTSRwHaFe?pid=Api&P=0&h=180);
+   background-color: blue;
+   background-size: cover;
+   background-position: center;
+   text-align: center;
+   padding: 30px;
+
+}
+
+ h1{
+    font-size: 100px;
+    color: black;
+ }
+
+ button{
+    height: 50px;
+    width: 100px;
+    background-color: blue;
+    color: aqua;
+    border: 2px,solid,white;
+ }

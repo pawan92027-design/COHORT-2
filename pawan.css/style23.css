@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#parent{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: crimson;
+    border-top: 2px solid white;
+}
+
+.box.box:nth-child(2n-1){
+    background-color: yellow;
+    border-top: 2px solid white;
+}

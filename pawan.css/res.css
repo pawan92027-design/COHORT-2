@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.parent{
+    background-color: darkcyan;
+    width: 50%;
+    margin: 20px;
+    padding: 20px;
+
+}
+h2{
+    font-size: 50x;
+}
+
+h4{
+    font-size: 30px;
+}
+
+h6{
+    font-size:25px
+}
+
+p{
+    font-size: 30px;
+}
